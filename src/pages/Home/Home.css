@@ -1,0 +1,19 @@
+.image__accueil {
+  display: flex;
+  justify-content: center;
+  height: 650px;
+  margin-top: 4rem;
+}
+
+
+.image__accueil img {
+  width: 65%;
+}
+
+.home__text {
+color: white;
+display: flex;
+justify-content: center;
+margin-top: 5rem;
+font-size: 32px;
+}

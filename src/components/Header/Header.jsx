@@ -17,27 +17,27 @@ function Header() {
           </Link>
         </div>
         <ul className="app__navbar-links">
-          <li className="p__opensans">
+          <li>
             <Link to="/" className="app__Links">
               Accueil
             </Link>
           </li>
-          <li className="p__opensans">
+          <li>
             <Link to="/concept" className="app__Links">
               Concept
             </Link>
           </li>
-          <li className="p__opensans">
+          <li>
             <Link to="/menu" className="app__Links">
               Menu
             </Link>
           </li>
-          <li className="p__opensans">
+          <li>
             <Link to="/event" className="app__Links">
               Evénements
             </Link>
           </li>
-          <li className="p__opensans">
+          <li>
             <Link to="/contact" className="app__Links">
               Contact
             </Link>
@@ -58,7 +58,7 @@ function Header() {
                 onClick={() => setToggleMenu(false)}
               />
               <ul className="app__navbar-smallscreen-links">
-                <li className="p__opensans">
+                <li>
                   <Link
                     to="/"
                     className="app__Links"
@@ -67,7 +67,7 @@ function Header() {
                     Accueil
                   </Link>
                 </li>
-                <li className="p__opensans">
+                <li>
                   <Link
                     to="/concept"
                     className="app__Links"
@@ -76,7 +76,7 @@ function Header() {
                     Concept
                   </Link>
                 </li>
-                <li className="p__opensans">
+                <li>
                   <Link
                     to="/menu"
                     className="app__Links"
@@ -85,7 +85,7 @@ function Header() {
                     Menu
                   </Link>
                 </li>
-                <li className="p__opensans">
+                <li>
                   <Link
                     to="/event"
                     className="app__Links"
@@ -94,7 +94,7 @@ function Header() {
                     Evénements
                   </Link>
                 </li>
-                <li className="p__opensans">
+                <li>
                   <Link
                     to="/contact"
                     className="app__Links"

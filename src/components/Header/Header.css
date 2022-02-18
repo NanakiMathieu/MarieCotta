@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #8FA382;
+  border-bottom: white solid 0.6mm;
 }
 
 .app__navbar-logo{
