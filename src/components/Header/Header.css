@@ -40,6 +40,14 @@
   text-decoration: none;
   color: white;
   font-size: 25px;
+  border-right: 3px solid white;
+  padding-right: 50px;
+}
+
+.app__Links__contact {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
 }
 
 .app__Links:hover {

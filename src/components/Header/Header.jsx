@@ -13,7 +13,7 @@ function Header() {
     <div className="header__sticky">
       <nav className="app__navbar">
         <div className="app__navbar-logo">
-          <Link to="/" className="app__Links">
+          <Link to="/" className="app__Links__logo">
             <img src={Logo} alt="logo marie cotta" />
           </Link>
         </div>
@@ -39,7 +39,7 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="app__Links">
+            <Link to="/contact" className="app__Links__contact">
               Contact
             </Link>
           </li>
