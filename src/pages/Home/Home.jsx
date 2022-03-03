@@ -1,10 +1,17 @@
 import React from 'react';
+import './Home.css';
+import photo from '../../assets/images/test.jpg';
 
 function Home() {
   return (
-    <main className="home">
-      <h1>Home Here !</h1>
-    </main>
+    <div>
+      <div className="home__image">
+        <img src={photo} alt="nourriture" />
+      </div>
+      <div className="home__text">
+        <h3> Traiteur eco-responsable sur Montaigu</h3>
+      </div>
+    </div>
   );
 }
 

@@ -1,0 +1,36 @@
+.concept__image {
+  display: flex;
+  justify-content: center;
+  height: 650px;
+  margin-top: 4rem;
+}
+
+
+.concept__image img {
+  width: 65%;
+}
+
+.concept__h2 {
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.concept__profil {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.concept__profilpic {
+width: 25%;
+height: 500px;
+margin: 2rem 0 2rem 2rem;
+}
+
+.concept__presentation {
+  width: 40%;
+  height: 500px;
+text-align: center;
+font-size: 36px;
+}
