@@ -1,13 +1,12 @@
 .home__image {
   display: flex;
   justify-content: center;
-  height: 650px;
-  margin-top: 4rem;
+  height: 400px;
 }
 
 
 .home__image img {
-  width: 65%;
+  width: 100%;
 }
 
 .home__text {
