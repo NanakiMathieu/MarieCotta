@@ -5,7 +5,7 @@ import photo from '../../assets/images/test.jpg';
 function Home() {
   return (
     <div>
-      <div className="image__accueil">
+      <div className="home__image">
         <img src={photo} alt="nourriture" />
       </div>
       <div className="home__text">

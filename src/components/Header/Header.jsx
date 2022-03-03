@@ -8,8 +8,9 @@ import './Header.css';
 
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
-    <div>
+    <div className="header__sticky">
       <nav className="app__navbar">
         <div className="app__navbar-logo">
           <Link to="/" className="app__Links">
