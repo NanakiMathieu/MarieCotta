@@ -26,8 +26,8 @@ function Concept() {
           including versions of Lorem Ipsum.
         </p>
       </div>
-      <div>
-        <ul className="Concept__list">
+      <div className="Concept__list">
+        <ul>
           <li> Cuisine maison</li>
           <li> Produits locaux et de saison</li>
           <li> Bocaux réutilisés</li>

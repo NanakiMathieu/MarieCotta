@@ -13,6 +13,7 @@
 .concept__h2 {
   margin-top: 3rem;
   margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 
 .concept__profil {
@@ -33,4 +34,15 @@ margin: 2rem 0 2rem 2rem;
   height: 500px;
 text-align: center;
 font-size: 36px;
+}
+
+.concept__list {
+  display: flex;
+  justify-content: center;
+}
+
+.concept__list ul li {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
 }
