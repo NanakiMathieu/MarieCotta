@@ -53,7 +53,7 @@ function Contact() {
 
   const sendFeedback = (templateId, variables) => {
     window.emailjs
-      .send('service_bf9rzhe', templateId, variables)
+      .send('service_miztxor', templateId, variables)
       .then((res) => {
         successMessage();
         console.log(res);
@@ -73,7 +73,7 @@ function Contact() {
     e.preventDefault();
 
     if (name && isEmail() && message) {
-      sendFeedback('template_jdcxqjq', {
+      sendFeedback('template_8d7tdcg', {
         name,
         phone,
         email,
